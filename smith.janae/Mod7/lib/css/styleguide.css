@@ -315,6 +315,16 @@ a:hover{
 }
 
 .view-window {
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+}
+
+.bottom-area {
 	height: 50vh;
 	position: relative;
 	overflow: hidden;

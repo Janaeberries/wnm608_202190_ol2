@@ -21,13 +21,14 @@
 				<ul>
 					<li><a href="index.php">Home</a></li>
 					<li><a href="product_list.php">Store</a></li>
-					<li><a href="#">Cart</a></li>
+					<li><a href="cart.php">Cart</a></li>
 				</ul>
 			</nav>
 		</div>
 	</header>
 
-	<div class="view-window" style="background-image: url(Mod7/img/skin_models.jpg);"></div>
+	<div class="view-window" style="background-image: url(Mod7/img/skin_models.jpg);">
+	</div>
 
 	<div class="container">
 		<div class="card hard">
@@ -70,14 +71,25 @@
 		</div>
 	</div>
 
+	<div class="container">
+		<div class="card soft">
+			<h2>Our Mission</h2>
 
-				<div class="container">
-					<div class="card hard">
-					<h2>Our Mission</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in tellus purus. Nullam pharetra ante at lorem tincidunt, nec iaculis nisi ullamcorper. Quisque vehicula at eros sit amet mattis. Donec malesuada dui vitae purus tincidunt placerat. Fusce aliquet nunc rutrum, cursus lectus et, gravida nisl. Curabitur scelerisque orci eu neque pharetra vulputate. Aliquam tortor lacus, accumsan ullamcorper auctor eget, tincidunt eu tellus. Mauris lobortis odio vel dolor imperdiet, ac eleifend libero mollis. Vivamus venenatis tortor sed sapien rhoncus, nec egestas nulla facilisis. Phasellus magna lorem, porttitor id consectetur gravida, gravida imperdiet libero. Morbi sed nulla sem. Nullam faucibus venenatis suscipit. Fusce volutpat pulvinar vehicula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-				</div>
-				</div>
-				</div>
+			<p>We at Anaberry had always dreamt of creating cruelty-free skincare that can appeal to everyone. We want you to feel great in your skin and know that you aren't using anything harmful. What you see is what you get. Natural beauty inside and out.</p>
+
+		</div>
+	</div>
+
+
+ <div class="bottom-area" style="background-image: url(Mod7/img/water-splash-wave.jpeg);">
+
+ 	<h2>Contact us</h2>
+
+ 	<ul>
+ 		<li>Instagram</li>
+ 		<li>Facebook</li>
+ 		<li>Twitter</li>
+ 	</ul>
 
 
 		</div>
