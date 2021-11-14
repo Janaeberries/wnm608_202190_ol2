@@ -4,9 +4,9 @@
 	<meta charset="UTF-8">
 	<title>Anaberry Skincare</title>
 
-	<link rel="stylesheet" href="Mod7/lib/css/styleguide.css">
-    <link rel="stylesheet" href="Mod7/css/storetheme.css">
-    <link rel="stylesheet" href="Mod7/lib/css/gridsystem.css">
+	<link rel="stylesheet" href="resources/lib/css/styleguide.css">
+    <link rel="stylesheet" href="resources/css/storetheme.css">
+    <link rel="stylesheet" href="resources/lib/css/gridsystem.css">
 
 </head>
 <body>
