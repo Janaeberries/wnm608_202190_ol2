@@ -91,7 +91,7 @@
             </div>
             <div class="col-xs-12 col-md-4">
                 <figure class="figure">
-            <img src="resources/img/Ole_toner.jpg" alt="">
+            <img src="resources/img/ole_toner.jpg" alt="">
             <div>AHA Toner</div>
             <div>$15</div>
         </figure>
@@ -108,7 +108,7 @@
                     <div class="grid gap">
             <div class="col-xs-12 col-md-4">
                 <figure class="figure">
-            <img src="resources/img/Vitaminc_serum.jpg" alt="">
+            <img src="resources/img/vitaminc_serum.jpg" alt="">
             <div>Vitamin C Serum</div>
             <div>$12</div>
         </figure>
@@ -122,7 +122,7 @@
             </div>
             <div class="col-xs-12 col-md-4">
                 <figure class="figure">
-            <img src="resources/img/Rose_serum.jpg" alt="">
+            <img src="resources/img/rose_serum.jpg" alt="">
             <div>Daytime Serum</div>
             <div>$12</div>
         </figure>
@@ -168,6 +168,7 @@
         </div>
 </div>
 </div>
+
 
 	
 </body>

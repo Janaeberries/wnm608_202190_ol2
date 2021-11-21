@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Cart</title>
+	<title>Checkout Page</title>
 
 	<link rel="stylesheet" href="resources/lib/css/styleguide.css">
     <link rel="stylesheet" href="resources/css/storetheme.css">
@@ -27,37 +27,41 @@
 		</div>
 	</header>
 
-	<div class="container">
-        <div class="card hard">
-        <h2>Cart</h2>
-        <div class="grid">
-    
-        <div class="grid gap xs-small md-medium">
 
+    <div class="container">
+		<div class="card soft">
+    <div class="container" id="forms">
 
-            <div class="col-xs-3">Foaming Cleanser x1</div>
-
-
+    <h2>Checkout</h2>
+            <form>
+                <div class="form-control"></label>
+                <label class="form-label">Name</label>
+                <input type="text" placeholder="Full name" class="form-input">
             </div>
-        </div>
+            <div class="form-control">
+                <label class="form-label">Address</label>
+                <input type="number" placeholder="Address" class="form-input">
+            </div>
+            <div class="form-control">
+                <label class="form-label">Payment Information</label>
+                <input type="password" placeholder="000-000-000" class="form-input">
+            </div>
 
-          <div class="nav">
+            <div class="nav">
 
             <nav class="nav nav-pills">
                 <ul>
-                    <li><a href="product_checkout.php">Checkout</a></li>
+                    <li><a href="product_confirmation.php" class="form-button">Complete Checkout</a></li>
                 </ul>
             </nav>
 
         </div>
 
-    </div>
-
-          
         </form>
     </div>
 </div>
 </div>
+
 
 	
 	</div>

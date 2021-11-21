@@ -1,8 +1,9 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Cart</title>
+	<title>Added to Cart</title>
 
 	<link rel="stylesheet" href="resources/lib/css/styleguide.css">
     <link rel="stylesheet" href="resources/css/storetheme.css">
@@ -28,37 +29,20 @@
 	</header>
 
 	<div class="container">
-        <div class="card hard">
-        <h2>Cart</h2>
-        <div class="grid">
-    
-        <div class="grid gap xs-small md-medium">
+        <div class="card soft">
+        <h2>Added to cart!</h2>
 
-
-            <div class="col-xs-3">Foaming Cleanser x1</div>
-
-
-            </div>
+        <div class="display-flex">
+            <div class="flex-none"><a href="product_list.php">Continue Shopping</a></div>
+            <div class="flex-stretch"></div>
+            <div class="flex-none"><a href="cart.php">Go to Cart</a></div>
         </div>
 
-          <div class="nav">
+         
 
-            <nav class="nav nav-pills">
-                <ul>
-                    <li><a href="product_checkout.php">Checkout</a></li>
-                </ul>
-            </nav>
 
+            
         </div>
-
-    </div>
-
-          
-        </form>
-    </div>
-</div>
-</div>
-
 	
 	</div>
 </div>

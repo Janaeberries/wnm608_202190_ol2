@@ -32,6 +32,7 @@
 			<h2>Product Item</h2>
 
 			<p>This is the cleanser <?= $_GET['id'] ?></p>
+			<p><a href="product_added_to_cart.php">Add to Cart</a></p>
 
 		</div>
 	</div>

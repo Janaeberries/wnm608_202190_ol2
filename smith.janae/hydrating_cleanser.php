@@ -43,25 +43,46 @@
 </div>
 </div>
 
-<div class="col-xs-12 col-md-4">
-<div class="card soft flat">
+<div class="container">
 
+ <div class="card-section">
+        	<label for="product-amount" class="form-label">Amount</label>
+        		<select id="product-amount" name="product-amount">
+        			<option>1</option>
+        			<option>2</option>
+        			<option>3</option>
+        			<option>4</option>
+        			<option>5</option>
+        			<option>6</option>
+        			<option>7</option>
+        			<option>8</option>
+        			<option>9</option>
+        			<option>10</option>
+        		</select>
+        	</div>
+        </div>
+
+        <div class="card-section">
+        	<input type="submit" class="form-button" value="Add To Cart">
+        </div>
+
+<div class="nav">
+
+            <nav class="nav nav-pills">
+                <ul>
+                    <li><a href="product_added_to_cart.php">Add to Cart</a></li>
+                </ul>
+            </nav>
+
+        </div>
+</div>
+
+<div class="card soft">
+
+	<p>he hydrating face wash is great for those with dry skin or looking for extra moisture during the colder seasons. Try pairing with hydrating serums and a toner for a full hydration routine.</p>
 
 </div>
-</div>
 
-	<h2 id="select">How many?</h2>
-
-            <div class="card soft">
-                <div class="form-select">
-                <select>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                </select>
-                </div>
-            </div>
 
 </body>
 </html>
