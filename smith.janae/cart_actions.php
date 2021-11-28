@@ -1,6 +1,6 @@
 <?php
 
-include_once "lib/php/functions.php";
+include_once "resources/lib/php/functions.php";
 
 
 
@@ -17,12 +17,12 @@ switch($_GET['action']) {
 		case "update-cart-item":
 			$p = cartItemById($_POST['id']);
 			$p->amount = $_POST['amount'];
-			header("location:cart.php");
+			header("location:product_cart.php");
 			break;
 		
 		case "delete-cart-item":
 			$_SESSION['cart'] = array_filter($_SESSION['cart'],function($o){return $o->id!=$_POST['id'];});
-			header("location:cart.php");
+			header("location:product_cart.php");
 			break;
 
 		case "reset-cart":
@@ -33,4 +33,9 @@ switch($_GET['action']) {
 			die("Incorrect Action");
 
 
+
+
+}
+
+print_p([$_GET,$_POST,$_SESSION]);
 

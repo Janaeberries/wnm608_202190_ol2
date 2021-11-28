@@ -29,44 +29,124 @@
 
 
     <div class="container">
-		<div class="card soft">
-    <div class="container" id="forms">
+    <div class="card soft">
+        <h2>Product Checkout</h2>
+        
 
-    <h2>Checkout</h2>
-            <form>
-                <div class="form-control"></label>
-                <label class="form-label">Name</label>
-                <input type="text" placeholder="Full name" class="form-input">
-            </div>
-            <div class="form-control">
-                <label class="form-label">Address</label>
-                <input type="number" placeholder="Address" class="form-input">
-            </div>
-            <div class="form-control">
-                <label class="form-label">Payment Information</label>
-                <input type="password" placeholder="000-000-000" class="form-input">
-            </div>
 
-            <div class="nav">
+        <form>
+            <h3>Address</h3>
 
-            <nav class="nav nav-pills">
-                <ul>
-                    <li><a href="product_confirmation.php" class="form-button">Complete Checkout</a></li>
-                </ul>
-            </nav>
 
-        </div>
+    
+                
 
-        </form>
+                <div class="form-control">
+                    <label class="form-label">Street</label>
+                    <input type="street name" placeholder="Password" class="form-input">
+                </div>
+
+
+
+
+                    <div class="form-control display-flex flex-align-center">
+                        <div class="flex-none">
+                        
+                            <label class="form-label">City</label>
+                        </div>
+                        <div class="flex-stretch">
+                            <input type="city" placeholder="City" class="form-input">
+                        </div>
+                        <div class="flex-none">
+                            <label class="form-label">State</label>
+                        </div>
+                        <div class="flex-stretch">
+                            <input type="state" placeholder="State" class="form-input">
+                        </div>
+                </div>
+
+                <div class="form-control display-flex flex-align-center">
+                        <div class="flex-none">
+                        
+                            <label class="form-label">Zip Code</label>
+                        </div>
+                        <div class="flex-stretch">
+                            <input type="zip code" placeholder="Zip Code" class="form-input">
+                        </div>
+                        <div class="flex-none">
+                            <label class="form-label">Country</label>
+                        </div>
+                        <div class="flex-stretch">
+                            <input type="country" placeholder="Country" class="form-input">
+                        </div>
+                </div>
+
+
+
+
+
+
+<h3>Payment</h3>
+
+    
+        
+
+        <div class="form-control">
+                    <label class="form-label">Name</label>
+                    <input type="text" placeholder="Name" class="form-input">
+                </div>
+            
+                <div class="form-control">
+                    <label class="form-label">Card Number</label>
+                    <input type="Card Number" placeholder="#### #### #### ####" class="form-input">
+                </div>
+
+
+            <div class="form-control display-flex flex-align-center">
+                        <div class="flex-none">
+                        
+                            <label class="form-label">Expiration Date</label>
+                        </div>
+                        <div class="flex-stretch">
+                            <input type="expiration Date" placeholder="MM-YY" class="form-input">
+                        </div>
+                        <div class="flex-none">
+                            <label class="form-label">CVV</label>
+                        </div>
+                        <div class="flex-stretch">
+                            <input type="cvv" placeholder="CVV" class="form-input">
+                        </div>
+                </div>
+
+
+                <div class="form-control">
+                    <label class="form-label">Zip Code</label>
+                    <input type="zip code" placeholder="Zip Code" class="form-input">
+                </div>
+
+
+                <div class="form-control">
+                    <a href="product_confirmation.php" class="form-button">Complete Checkout</a>
+                    
+                </div>
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+        
     </div>
 </div>
-</div>
 
 
-	
-	</div>
-</div>
-</div>
 
 </body>
 </html>

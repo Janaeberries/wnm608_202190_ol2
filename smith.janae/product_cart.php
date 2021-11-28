@@ -1,10 +1,13 @@
 <?php
 
 include_once "resources/lib/php/functions.php";
+include_once "resources/parts/templates.php";
 
-$product = makeQuery(makeConn(), "SELECT * FROM `products` WHERE `id`=".$_GET['id'])[0];
+//$cart = makeQuery(makeConn(), "SELECT * FROM `products` WHERE `id` IN (4,7,10)");
 
-// print_p($product);
+
+$cart_items = getCartItems();
+
 
 ?>
 
@@ -12,7 +15,7 @@ $product = makeQuery(makeConn(), "SELECT * FROM `products` WHERE `id`=".$_GET['i
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Added to Cart</title>
+	<title>Checkout Page</title>
 
 	<link rel="stylesheet" href="resources/lib/css/styleguide.css">
     <link rel="stylesheet" href="resources/css/storetheme.css">
@@ -37,25 +40,32 @@ $product = makeQuery(makeConn(), "SELECT * FROM `products` WHERE `id`=".$_GET['i
 		</div>
 	</header>
 
-	<div class="container">
-        <div class="card soft">
-        <h2>Added to <?= $product->name ?> cart!</h2>
 
-        <div class="display-flex">
-            <div class="flex-none"><a href="product_list.php">Continue Shopping</a></div>
-            <div class="flex-stretch"></div>
-            <div class="flex-none"><a href="product_cart.php">Go to Cart</a></div>
+    <div class="container">
+    
+        <h2>In Your Cart</h2>
+        <div class="grid gap">
+            <div class="col-xs-12 col-md-7">
+                <div class="card soft">
+                    
+                        <?= array_reduce($cart_items, 'cartListTemplate') ?>
+                    
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-5">
+                <div class="card soft">
+                    <?= cartTotals() ?>
+                
+            </div>
+        
         </div>
 
-         
+    </div>
+
+</div>
 
 
-            
-        </div>
-	
-	</div>
-</div>
-</div>
+
 
 </body>
 </html>

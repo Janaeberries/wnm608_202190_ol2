@@ -21,21 +21,11 @@
 				<ul>
 					<li><a href="index.php">Home</a></li>
 					<li><a href="product_list.php">Store</a></li>
-					<li><a href="cart.php">Cart</a></li>
+					<li><a href="product_cart.php">Cart</a></li>
 				</ul>
 			</nav>
 		</div>
 	</header>
-
-	<div class="container">
-
-	<div class="form-control">
-                    <form class="hotdog">
-                        <span>&equiv;</span>
-                        <input type="search" placeholder="Search">
-                    </form>
-                </div>
-            </div>
 
 
 	<div class="view-window" style="background-image: url(resources/img/skin_models.jpg);"></div>

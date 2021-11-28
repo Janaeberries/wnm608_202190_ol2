@@ -1,3 +1,13 @@
+<?php
+
+include_once "resources/lib/php/functions.php";
+
+$cart = makeQuery(makeConn(), "SELECT * FROM `products` WHERE `id` IN (1,2,3,4)");
+
+// print_p($product);
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,41 +38,13 @@
 	</header>
 
 	<div class="container">
-        <div class="card hard">
+        <div class="card soft">
+        	<div class="grid gap"></div>
         <h2>Cart</h2>
-        <div class="grid">
-    
-        <div class="grid gap xs-small md-medium">
-
-
-            <div class="col-xs-3">Foaming Cleanser x1</div>
-
 
             </div>
         </div>
 
-          <div class="nav">
-
-            <nav class="nav nav-pills">
-                <ul>
-                    <li><a href="product_checkout.php">Checkout</a></li>
-                </ul>
-            </nav>
-
-        </div>
-
-    </div>
-
-          
-        </form>
-    </div>
-</div>
-</div>
-
-	
-	</div>
-</div>
-</div>
 
 </body>
 </html>

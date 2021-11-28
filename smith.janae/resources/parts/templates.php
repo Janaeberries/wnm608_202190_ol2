@@ -4,10 +4,12 @@ function productListTemplate($r,$o) {
 
 return $r.<<<HTML
 <div class="col-xs-12 col-md-4">
-		<figure class="figure product">
+		<figure class="figure product display-flex flex-column">
 			<a href="product_item.php?id=$o->id">
+			<div class="flex-stretch">
 			<img src="$o->thumbnail" alt="">
-			<figcaption>
+			</div>
+			<figcaption class="flex-none">
 				<div>$o->name</div></a>
 				<div>&dollar;$o->price</div>
 			</figcaption>
@@ -72,19 +74,19 @@ function cartTotals() {
 
 
 return <<<HTML
-<div class="card-section display-flex">
+<div class="card-area display-flex">
 	<div class="flex-stretch"><strong>Sub Total</strong></div>
 		<div class="flex-none">&dollar;$pricefixed</div>
 	</div>
-	<div class="card-section display-flex">
+	<div class="card-area display-flex">
 		<div class="flex-stretch"><strong>Taxes</strong></div>
 		<div class="flex-none">&dollar;$taxfixed</div>
 	</div>
-	<div class="card-section display-flex">
+	<div class="card-area display-flex">
 		<div class="flex-stretch"><strong>Total</strong></div>
 		<div class="flex-none">&dollar;$taxedfixed</div>
 	</div>
-	<div class="card-section">
+	<div class="card-area">
 		<a href="product_checkout.php" class="form-button">Checkout</a>
 	</div>
 HTML;
