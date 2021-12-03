@@ -1,0 +1,42 @@
+[
+	
+	{
+		"name":"Janae Smith",
+		"type":"Student",
+		"email":"jsmith@art.edu",
+		"classes":[601,608,613]
+	},
+	{
+		"name":"Alexandria Davis",
+		"type":"Student",
+		"email":"adavis@usm.edu",
+		"classes":[613,608,601]
+	},
+	{
+		"name":"Nikki Banks",
+		"type":"Student",
+		"email":"nbanks@walden.edu",
+		"classes":[601,608,613]
+	},
+	{
+		"name":"Bridney Smith",
+		"type":"Student",
+		"email":"bsmith@art.edu",
+		"classes":[613,601,608]
+	},
+	{
+		"name":"Shirley Danzy",
+		"type":"Manager",
+		"email":"sdanzy@jsu.edu",
+		"classes":[601,608,613]
+	},
+	{
+		"name":"Valeria Brown",
+		"type":"Intern",
+		"email":"vbrown@tougaloo.edu",
+		"classes":[601,608,613]
+	}
+
+
+
+]
