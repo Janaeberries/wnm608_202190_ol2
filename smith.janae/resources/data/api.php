@@ -1,6 +1,6 @@
 <?php
 
-include_once "resources/lib/php/functions.php";
+include_once "../smith.janae/resources/lib/php/functions.php";
 
 $output = [];
 

@@ -35,9 +35,9 @@
 
  ?>
 
-    <script src="../smith.janae/resources/js/product_list.js"></script>
     <script src="../smith.janae/resources/lib/js/functions.js"></script>
     <script src="../smith.janae/resources/js/templates.js"></script>
+    <script src="../smith.janae/resources/js/product_list.js"></script>
 
 
      <div class="container">

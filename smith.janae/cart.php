@@ -31,7 +31,10 @@ $cart = makeQuery(makeConn(), "SELECT * FROM `products` WHERE `id` IN (1,2,3,4)"
 				<ul>
 					<li><a href="index.php">Home</a></li>
 					<li><a href="product_list.php">Store</a></li>
-					<li><a href="cart.php">Cart</a></li>
+					<li><a href="product_cart.php">
+						<span>Cart</span>
+						<span class="badge"><?= makeCartBadge(); ?></span>
+					</a></li>
 				</ul>
 			</nav>
 		</div>
